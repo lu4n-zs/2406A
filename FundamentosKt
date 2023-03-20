@@ -94,3 +94,84 @@ fun main() {
     
 }
 //-------------------------------------------------------------------------------------------
+fun main() {
+   
+    /*
+    //Operadores Matemáticos 
+    
+    //	+	-> adição
+    //	-	-> subtração 
+    //	/	-> divisão
+    //	*	-> multiplicação 
+    //	%	-> módulo
+    //	
+    var halls = 7
+    var freegells = 6
+    
+    println(halls % freegells)
+    //
+    */
+   
+    
+    // EXERCÍCIO - Faça uma calculadora que contenham cada um das operações matemáticas 
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // contendo também uma interface simples e bem bonita :)
+    // 
+    // 
+    // 
+    // 
+    //
+    
+    
+    
+    println("|-----------------------|")
+    println("| |-------------------| |")
+    println("| | Minha Calculadora | |")
+    println("| |-------------------| |")
+    println("|                       |")
+    println("|    10 + 10 = 20       |")
+    println("|                       |")
+    println("|    10 - 10 = 0        |")
+    println("|                       |")
+    println("|    10 / 10 = 1        |")
+    println("|                       |")
+    println("|    10 * 10 = 100      |")
+    println("|                       |")
+    println("|    10 % 10 = 1        |")
+    println("|                       |")
+    println("|-----------------------|")
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  
+    
+    
+    
+    
+    
+}
+//--------------------------------------------------------------------------------------------
