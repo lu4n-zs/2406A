@@ -124,53 +124,33 @@ fun main() {
     
     
     
-    println("|-----------------------|")
-    println("| |-------------------| |")
-    println("| | Minha Calculadora | |")
-    println("| |-------------------| |")
-    println("|                       |")
-    println("|    10 + 10 = 20       |")
-    println("|                       |")
-    println("|    10 - 10 = 0        |")
-    println("|                       |")
-    println("|    10 / 10 = 1        |")
-    println("|                       |")
-    println("|    10 * 10 = 100      |")
-    println("|                       |")
-    println("|    10 % 10 = 1        |")
-    println("|                       |")
-    println("|-----------------------|")
+    var n1 = 10
+    var n2 = 10
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-  
-    
-    
-    
+    println("||------------------------------------------------||")
+    println("||                                                ||")
+    println("||             ❤ Calculadora ❤                  || ")
+    println("||                                                ||  ")
+    println("||                                                ||")
+    println("||              ❤ Bem Vindes ❤                  ||")
+    println("||                                                ||")
+    println("||                                                ||")
+    println("||--  Soma  $n1 e $n2: -----------------------------||")
+    println("||--  Resultado: "+(n1 + n2)+" ------------------------------||")
+    println("||                                                ||")  
+    println("||-- Subtração  $n1 e $n2: -------------------------||")
+    println("||-- Resultado: "+(n1 - n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||-- Multiplicação:  $n1 e $n2 ---------------------||")
+    println("||-- Resultado: "+(n1 * n2)+" ------------------------------||")
+    println("||                                                ||")
+    println("||-- Divisão  $n1 e $n2: ---------------------------||")
+    println("||-- Resultado: "+(n1 / n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||-- Módulo  $n1 e $n2: ----------------------------||")
+    println("||-- Resultado: "+(n1 % n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||------------------------------------------------||")
     
     
 }
