@@ -2,7 +2,7 @@
 fun main() {
     println("little popcorn ")
 }
-//------------------------------------------------------------------------
+//----------------------------------------------------------------------------------------------------------------------------------------------------
 fun main() {
     println("oii") //exibir mensagens no console
     
@@ -54,7 +54,7 @@ fun main() {
      var professor = "Rodinei"
      var professorr: String
 }
-//-------------------------------------------------------------
+//-------------------------------------------------------------------------------------------------------------------------------------------------------------
 fun main() {
     // Concatenação
     // 
@@ -93,7 +93,7 @@ fun main() {
     
     
 }
-//-------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------
 fun main() {
    
     /*
@@ -154,4 +154,142 @@ fun main() {
     
     
 }
-//--------------------------------------------------------------------------------------------
+//---------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+   
+    /*
+    //Operadores Matemáticos 
+    
+    //	+	-> adição
+    //	-	-> subtração 
+    //	/	-> divisão
+    //	*	-> multiplicação 
+    //	%	-> módulo
+    //	
+    var halls = 7
+    var freegells = 6
+    
+    println(halls % freegells)
+    //
+    */
+   
+    
+    // EXERCÍCIO - Faça uma calculadora que contenham cada um das operações matemáticas 
+    // como resultado do cálculo de duas variáveis (contendo resultado para +, -, /, *, e %),
+    // contendo também uma interface simples e bem bonita :)
+    // 
+    // 
+   /*
+    
+    
+    
+    var n1 = 10
+    var n2 = 10
+    
+    println("||------------------------------------------------||")
+    println("||                                                ||")
+    println("||             ❤ Calculadora ❤                  || ")
+    println("||                                                ||  ")
+    println("||                                                ||")
+    println("||              ❤ Bem Vindes ❤                  ||")
+    println("||                                                ||")
+    println("||                                                ||")
+    println("||--  Soma  $n1 e $n2: -----------------------------||")
+    println("||--  Resultado: "+(n1 + n2)+" ------------------------------||")
+    println("||                                                ||")  
+    println("||-- Subtração  $n1 e $n2: -------------------------||")
+    println("||-- Resultado: "+(n1 - n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||-- Multiplicação:  $n1 e $n2 ---------------------||")
+    println("||-- Resultado: "+(n1 * n2)+" ------------------------------||")
+    println("||                                                ||")
+    println("||-- Divisão  $n1 e $n2: ---------------------------||")
+    println("||-- Resultado: "+(n1 / n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||-- Módulo  $n1 e $n2: ----------------------------||")
+    println("||-- Resultado: "+(n1 % n2)+" --------------------------------||")
+    println("||                                                ||")
+    println("||------------------------------------------------||")
+    //
+    */
+    
+    // Operadores Relacionais
+    // 
+    // == ->  igual a...
+    // != ->  diferente de...
+    // !  ->  negando valor 
+    // >  ->  maior que... 
+    // <  ->  menor que... 
+    // >= ->  maior ou igual a... 
+    // <= ->  menor ou igual a... 
+    // 
+    // 
+    // ++ ->  adiciona 1 a um valor 
+    // -- ->  subitrai 1 a um valor 
+    // += ->  adiciona um determinado valor a um valor 
+    // -= ->  subtrai um determinado valor de um valor 
+    
+    /*
+    var clauldetty = 50 
+    var josias = 30 
+    var berennice = 90 
+    var bernnadetthy = 80 
+    
+    println(clauldetty)
+    clauldetty++
+    println(clauldetty)
+    println("")
+    println(josias)
+    josias--
+    println(josias)
+    println("")
+    println(berennice)
+    berennice += clauldetty
+    println(berennice)
+    println("")
+    println(bernnadetthy)
+    bernnadetthy -= josias
+    println(bernnadetthy)
+    */
+    
+    /*
+    // Condeições if...else
+    // se... senão
+    // 
+    // estrutura: 
+    // 
+    // if... else simpes
+    // 
+    // if(condição){
+    // ação
+    // }else{
+    // ação
+    // }
+    
+    var interruptor = false
+    
+    if(interruptor == true){
+        println("Luz acesa :)")
+        
+    }else{
+        println("Luz apagada :)")
+    }
+    */
+    
+    var fome = true 
+    if(fome){
+        println("Alimente-se!")
+    }else{
+        println("Alimentou-se")
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+//----------------------------------------------------------------------------------------------------------------------------------------------------
