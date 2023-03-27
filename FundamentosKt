@@ -293,3 +293,52 @@ fun main() {
     
 }
 //----------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    /*
+    var senha = "333a"
+    
+    if(senha == "azeitona"){
+    	println("Bem-Vindo Sr Stark")
+	}else{
+    	println("Senha Incorreta, tente Novamente")
+}
+    */
+    
+    // SOCORRAM ME SUBI NO ONIBUS EM MARROCOS 
+    
+    // if..else composto 
+    // 
+    // com o if..else composto, somos permitidos, comparar mais de duas opições (o simples
+    // e o else), através do 'else if' 
+    // 
+    
+    /*
+    var coracoes = 5
+    if(coracoes >= 5)
+    	print("vovê está muito saldável! parabéns ")
+	}else if(coracoes == 4){
+    	println("você tá de boa")
+	}else if(coracoes == 3){
+    	println("cuidado com a saúde, durma melhor")
+	}else if(coracoes == 2){
+    	println("vá se tratar, você não está bem...")
+	}else if(coracoes == 1){
+    	println("estado crítico!!!!!")
+	}else{
+    	println("novo reforço do Vasco")
+	}
+    */
+    
+    // 1 - faça um programa usando duas variaveis que representem cada uma, um número,.
+    // ele (programa) deve verificar qual dos dois é o maior número e imprimi-lo no console.
+    
+    
+    //2 - faça um programa que verifique se o valor de uma variavel é 
+    //maior, igual, ou menor que 0 (positivo, negativo ou nenhum dos dois). 
+  
+    
+    
+}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
