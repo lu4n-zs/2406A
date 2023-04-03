@@ -342,3 +342,119 @@ fun main() {
     
 }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    // 1 - faça um programa usando duas variaveis que representem cada uma, um número.
+    //ele(programa) deve verificar qual dos dois é o maior número e imprimi-lo no console
+    /*
+    var schweinsteiger = 0
+    var khedira = 0
+    if(schweinsteiger > khedira){
+        println(schweinsteiger)
+    }else if(schweinsteiger < khedira){
+        println(khedira)
+    }else{
+        println("$schweinsteiger e $khedira são iguais")
+    }
+    
+    
+    */
+    
+    
+    
+    
+    //2 - faça um programa que verifique se o valor de uma variável é 
+    //maior, igual, ou menor que 0 (positivo ou negativo, ou nenhum dos dois)
+    // ☺♥  
+    // 
+    /*
+    var kroos = 20 
+    if(kroos > 0){
+        println("Número positivo")
+    }else if(kroos < 0){
+        println("Número negativo")
+    }else{
+        println("Número igual a zero")
+    }
+    */ 
+    
+    // Operadores Lógicos 
+    // && -> e -> se todas as condições forem verdadeiras, o resultado será verdadeiro
+    // || -> ou -> se pelo menos uma condição for verdadeira, o resultado
+    // será verdadeiro
+    // 
+    // Tabela Verdade 
+    // 
+    // && 
+    // VVV -> V
+    // VVF -> F
+    // FFF -> F
+    // FVF -> F
+    // FVV -> F
+    // VFV -> F
+    // 
+    // 
+    // || 
+    // VV -> V
+    // VF -> V
+    // FV -> V
+    // FF -> F
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+//---------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    // Na prática Operadores Lógicos
+    // 
+    // Minha mãe pediu para eu ir na loja de talheres e ela falou:
+    // traga uma concha de feijão, se tiver garfo, faca e colher
+    /*
+    var garfo = false
+    var faca = true
+    var colher = true 
+    
+    //println(garfo && faca)
+    println(garfo && (faca || colher)
+    */
+    
+    // Show do Péricles
+    // pro cidadão menor de 18 entrar, ele precisa ter pelo menos 12 anos E
+    // estar acompanhado de seus pais
+    // 
+    /*
+    var idade = 15
+    var comPais = false
+    var comIdentidade = true
+    
+    if(idade < 18){
+        
+        if((idade >= 12 && comIdentidade == true) || comPais == true){
+            println("Aproveite o show... menó")
+        }else{
+            println("Tu não pode entrar")
+        }
+    }else{
+        println("Aproveite o show!!")
+    }
+    */
+    
+    // Exercício -> No MetroidVania, para o hero ir para a tela de GameOver, 
+    // seus corações precisam ser igual a zero e 
+    // suas vidas precisam ser menor ou igual a zero
+    
+    // Simule com operadores lógicos quando ele vai para o GamerOver
+    // e quando ele não vai
+    
+    
+    
+    
+}
+//-------------------------------------------------------------------------------------------------------------------------------------------------
