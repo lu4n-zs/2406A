@@ -282,15 +282,7 @@ fun main() {
     }else{
         println("Alimentou-se")
     }
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    +-
 }
 //----------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -458,3 +450,68 @@ fun main() {
     
 }
 //-------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    // Exercício -> No MetroidVania, para o hero ir para a tela de GameOver, 
+    // seus corações precisam ser igual a zero e 
+    // suas vidas precisam ser menor ou igual a zero
+    
+    // Simule com operadores lógicos quando ele vai para o GamerOver
+    // e quando ele não vai
+    
+    /*
+    var coracoes = 1
+    var vidas = 3
+    
+    if(coracoes == 0 && vidas <= 0){
+        println("GameOver")
+    }else{
+        println("O jogo continua ")
+    }
+    */
+    
+    // When = quando 
+    // 
+    // Comparamdo de quando um valor for igual a um determinado valor,
+    // uma determinada ação sera execitada
+    //
+    // Estrutura do nWhen 
+    // 
+    // var auxiliar = valor 
+    // 
+    // when(auxiliar){
+    // 
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // else -> {ação}
+    // }
+    // sera usado geralmente quando durante o programa o valor da variável
+    //  não for estático, ou seja, ele estiver mudando
+    //  
+    var mes = 5
+    
+    when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")}
+        6 -> {println("Millwaulke")}
+        7 -> {println("Barcelona")}
+        8 -> {println("Springfield")}
+        9 -> {println("Los Polos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12-> {println("Seoul")}
+        else -> {("Acordou")}  
+    }
+    
+    
+    
+    
+    
+}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
