@@ -515,3 +515,65 @@ fun main() {
     
 }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+      // When = quando 
+    // 
+    // Comparamdo de quando um valor for igual a um determinado valor,
+    // uma determinada ação sera execitada
+    //
+    // Estrutura do nWhen 
+    // 
+    // var auxiliar = valor 
+    // 
+    // when(auxiliar){
+    // 
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // valor -> {ação}
+    // else -> {ação}
+    // }
+    // sera usado geralmente quando durante o programa o valor da variável
+    //  não for estático, ou seja, ele estiver mudando
+    // 
+    /* 
+    var mes = 5
+    
+    when(mes){
+        1 -> {println("Lisboa")}
+        2 -> {println("Nova York")}
+        3 -> {println("Rio de Janeiro")}
+        4 -> {println("São Paulo")}
+        5 -> {println("Keylandia")}
+        6 -> {println("Millwaulke")}
+        7 -> {println("Barcelona")}
+        8 -> {println("Springfield")}
+        9 -> {println("Los Polos Hermanos")}
+        10 -> {println("Elmore")}
+        11 -> {println("Toronto")}
+        12-> {println("Seoul")}
+        else -> {("Acordou")}  
+    }
+    */
+    
+    /*
+    // Exercício -> Escreva um programa em kotlin que declare uma variável chamada
+    //"diaSemana" do tipo string, que represente um dia da semana. Em seguida, utilize a 
+    //declaração "when" para exibir uma mensagem na tela informando se o dia da semana é 
+    //um dia útil ou um final de semana. 
+    
+    var diaSemana = "Quarta-Feira"
+    
+    when(diaSemana){
+        "Domingo" -> {println("Final de semana")}
+        "Segunda-Feira" -> {println("Dia Útil ")}
+        "Terça-Feira" -> {println("Dia Útil")}
+        "Quata-Feira" -> {println("Dia Útil")}
+        "Quinta-Feira" -> {println("Dia Útil")}
+        "Sexta-Frira" -> {println("Dia Útil")}
+        "Sabado" -> {println("Final de semana")}
+        else -> {println("Acordou")}
+    */    
+}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------
