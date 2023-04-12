@@ -73,7 +73,7 @@ fun main() {
     
     
     var nome = "Luan" 
-    var idade = 15 
+    var idade = 15 +
     var cidade = "São Paulo" 
     println("O meu nome é $nome, eu tenho $idade anos e moro em $cidade")
     */
@@ -577,3 +577,71 @@ fun main() {
     */    
 }
 //--------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    // Laços de repetição - loops
+    // 
+    // repeat - repita
+    // while - enquanto 
+    // do...whilw - faça... enquanto
+    // for - para
+    // 
+    // repeat - repita 
+    // vai repetir uma determinada ação uma determinada quantidade de vezes 
+    // 
+    // Estrutuda do Repeat
+    // 
+    // repeat(numero de vezes){
+    // ação
+    // }
+    //
+    /*
+    repeat(8){
+        println("isso é um teste, testando, testando, testando")
+    }
+    */
+    
+    /*
+    //  Exercício -> Faça um programa com auxilio de uma variável contador,
+    // no qual nela será apresentado 1 a cada repetição,
+    // até que dê a quantidade de vezes decididas
+    
+    var contador = 0
+    
+    repeat(10){ 
+        println(contador++)
+    }
+    */
+    
+    // Laço while - enquanto 
+    // 
+    // enqaunto uma condição for verdadeira, uma determinada ação sera sendo executada 
+    // 
+    // while(condição){
+    // ação
+    // }
+    /*
+    var contador = 0
+    while(contador < 10){
+        println(contador++)
+    }
+    */
+    
+    // Exercício -> Simulador de bateria de celular 
+    // Faça um programa com while que mostra a bateria 100% diminuindo.
+    // Quando ela chegar a 15%, ela deve mostrar uma mensagem pedindo para 
+    // conectar o carregador, e quando chegar a 0%, deve mostrar a mensagem aparelho desligando.
+    
+    var contador = 0
+    println("Bateria: 0%, desligando...")
+    while(contador < 0){
+        println(contador++)
+    }
+    println("Bateria: 15%, coloque para carregar")
+    while(contador < 16){
+        println(contador++)
+    }
+    
+    
+    
+}
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
