@@ -986,3 +986,102 @@ class Pessoa {
     
 }
 //---------------------------------------------------------------------------------------------------------------------------------------------------
+
+fun main() {
+    
+    var pessoa1 = Pessoa() //instanciamos um obj 
+    
+    /*
+    println(pessoa1.peso) //Exibir um atributo de um obj
+    println(pessoa1.nome) 
+    pessoa1.nome = "Edinaldo Pereira" //alterar um valor de um atributo de um obj
+    println(pessoa1.nome + ", " + pessoa1.idade) 
+    */
+    // Exercício -> Faça uma apresentação sua utilizando a classe Pessoa() já criada e utilizando pelo
+    // menos, todos os atributos que existem na classe
+    // 
+    /*
+    var pessoa2 = Pessoa()
+    pessoa2.nome = "Gabriel"
+    pessoa2.idade = 19
+    pessoa2.nacionalidade = "brazilian"
+    pessoa2.idioma = "português"
+    pessoa2.profissao = "Help"
+    print("Meu nome é ${pessoa2.nome}, eu tenho ${pessoa2.idade}, eu sou ${pessoa2.nacionalidade}, eu falo ")
+    println("${pessoa2.idioma} e minha profissão é ${pessoa2.profissao}")
+    */
+    
+    var pessoa3 = Pessoa() 
+    var animal1 = Animal("Cachorro", "Pinscher", 7, "chinelo", "grande")
+    // Exercício -> Faça o catálogo(fictício) de animais que estão morando no zoológico de SP
+    // com no mínimo 20 animais, sem repetição de raça
+    
+} 
+
+class Animal(var especie: String, //atributos que todo animalzin deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+    
+}
+class Pessoa {
+    //Atributos que toda pessoa pode ter
+    var nome = ""
+    var idade = 0
+    var nacionalidade = "" 
+    var idioma = "Português" //Valor Inicial
+    var profissao = ""
+    
+}
+//--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+fun main() {
+    
+    var animalzin = Animal("cachorro", "shih-tzu", 8, "chinelo", "pequeno")
+    
+    animalzin.comer("Ipanema")
+    
+    fun correr(velocidade: Double, lugar: String){
+    println("$especie correndo em uma velocicade de $velocidade km/h no $lugar")
+}
+    
+    
+    
+}
+
+
+
+
+
+
+class Animal(var especie: String, //atributos que todo animalzin deve ter
+             var raca: String,
+             var idade: Int,
+             var dieta: String,
+             var porte: String){
+    
+    // Estrutura de um método: 
+    // fun (nomeDoParâmetro: tipoDoParâmetro){
+    // ação
+    // }
+    
+    
+    fun comer(alimento: String){
+        println("$especie comendo $alimento, yumm")
+    }
+    
+    
+    
+    
+    
+}
+class Pessoa {
+    //Atributos que toda pessoa pode ter
+    var nome = ""
+    var idade = 0
+    var nacionalidade = "" 
+    var idioma = "Português" //Valor Inicial
+    var profissao = ""
+    
+}
+//---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
