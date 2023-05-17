@@ -1037,41 +1037,39 @@ class Pessoa {
 //--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 fun main() {
     
-    var animalzin = Animal("cachorro", "shih-tzu", 8, "chinelo", "pequeno")
-    
-    animalzin.comer("Ipanema")
-    
-    fun correr(velocidade: Double, lugar: String){
-    println("$especie correndo em uma velocicade de $velocidade km/h no $lugar")
-}
+    // Exercício -> Faça o catálogo(fictício) de animais que estão morando no zoológico de SP
+    // com no mínimo 20 animais, sem repetição de raça
     
     
+     // Métodos - Atividades, ações, que o obj pode realizar     Ex.: Chutar
     
-}
+    var animalzin = Animal("cachorro", "Shih-tzu", 8, "Chinelo", "pqno")
+    
+    animalzin.comer(animalzin.dieta)
+    
+    var animalzao = Animal("Golfinho", "Boto", 50, "Sardinha", "pqno")
+    
+    animalzao.correr(120.0, "Acre")
+} 
 
-
-
-
-
-
-class Animal(var especie: String, //atributos que todo animalzin deve ter
+class Animal(var especie: String, //atributos que todo animalzin deve ter <3
              var raca: String,
              var idade: Int,
              var dieta: String,
              var porte: String){
     
     // Estrutura de um método: 
-    // fun (nomeDoParâmetro: tipoDoParâmetro){
+    // fun (nomeDoParâmetro: tipoDoParametro){
     // ação
     // }
-    
     
     fun comer(alimento: String){
         println("$especie comendo $alimento, yumm")
     }
     
-    
-    
+    fun correr(velocidade: Double, lugar: String){
+        println("$especie correndo em uma velocidade de $velocidade km/h no $lugar")
+    }
     
     
 }
